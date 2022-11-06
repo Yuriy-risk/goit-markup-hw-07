@@ -7,3 +7,17 @@ ul {
     padding: 0;
     margin: 0;
 }
+li {
+    list-style-type: none;
+    /* Убираем маркеры
+  /* text-decoration: none; Отменяем подчеркивание у ссылки */
+}
+
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
+}
+img {
+    display: block;
+    max-width: 100%;
+}
