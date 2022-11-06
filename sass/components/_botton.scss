@@ -1,0 +1,187 @@
+.hero__botton {
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--Main-botton-style-color);
+
+    background-color: var(--Main-botton-style-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    border: none;
+
+    /* transition: color 250ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--Main-botton-hover-background-color);
+    }
+
+}
+
+.main-botton-send {
+    margin-top: 30px;
+    margin-left: 126px;
+    /* margin: 0 auto; */
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--Main-botton-style-color);
+
+    background-color: var(--Main-botton-style-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    border: none;
+
+    /* transition: color 250ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
+
+}
+
+
+
+.close-botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px;
+
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.main-botton-all {
+    /* font-family: "Roboto", sans-serif; */
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--Main-botton-all-color);
+    background-color: var(--Main-botton-all-background-color);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 6px 25px;
+    border: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        /* box-shadow: 10px 5px 5px black; */
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+
+.main-bottons {
+    font-family: "Roboto", sans-serif;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: var(--Main-bottons-background-color);
+    color: var(--Header-style-text-color);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: none;
+    transition: background-color 250ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--Main-bottons-hover-background-color);
+        color: var(--Main-bottons-hover-color);
+        /* box-shadow: 10px 5px 5px black; */
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+
+.main-bottons:active {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.main-botton-footer {
+    /* margin-top: 30px; */
+    margin-left: 12px;
+    /* margin: 0 auto; */
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--Main-botton-style-color);
+
+    background-color: var(--Main-botton-style-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    border: none;
+
+    /* transition: color 250ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

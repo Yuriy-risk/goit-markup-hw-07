@@ -1,0 +1,34 @@
+.header-Web {
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--Header-Web-color);
+    margin-right: 93px;
+}
+
+.header-Studio {
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--Header-Studio-color);
+    /* margin-right: 93px; */
+}
+
+.footer-Studio {
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: var(--Footer-Studio-color);
+}

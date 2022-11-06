@@ -1,0 +1,156 @@
+.header-menu-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--Header-menu-portfolio-color);
+    padding: 32px 0;
+    display: block;
+
+    position: relative;
+    /* color: var(--Header-menu-studiy-index-color); */
+    /*задаём цвет ссылки*/
+    cursor: pointer;
+    /* line-height: 1; */
+    /*задаём высоту строки*/
+    text-decoration: none;
+    /*убираем подчёркивание*/
+}
+
+.header-menu-portfolio:after {
+    margin-top: 28px;
+    display: block;
+    position: absolute;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 100%;
+    /*задаём длинну линии до наведения курсора*/
+    height: 4px;
+    /*задаём ширину линии*/
+    background-color: var(--Header-menu-studiy-index-color);
+    /*задаём цвет линии*/
+    content: "";
+    /* transition: width 0.3s ease-out; */
+    /*задаём время анимации*/
+    border-radius: 2px;
+}
+
+.header-container-portfolio {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
+    /* горизонтальное размещение контейнера */
+    display: flex;
+    /* центруем по вертикали: */
+    align-items: center;
+    /* вправо в конец */
+    /* flex-grow: 1; */
+}
+
+.header-menu-ul {
+    display: flex;
+
+    gap: 50px;
+    /* text-decoration: underline; */
+}
+.header-menu-studiy-index {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--Header-menu-studiy-index-color);
+
+    padding: 32px 0;
+    display: block;
+
+    position: relative;
+    /* color: var(--Header-menu-studiy-index-color); */
+    /*задаём цвет ссылки*/
+    cursor: pointer;
+    /* line-height: 1; */
+    /*задаём высоту строки*/
+    text-decoration: none;
+    /*убираем подчёркивание*/
+}
+
+.header-menu-studiy-index:after {
+    margin-top: 28px;
+    display: block;
+    position: absolute;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 100%;
+    /*задаём длинну линии до наведения курсора*/
+    height: 4px;
+    /*задаём ширину линии*/
+    background-color: var(--Header-menu-studiy-index-color);
+    /*задаём цвет линии*/
+    content: "";
+    /* transition: width 0.3s ease-out; */
+    /*задаём время анимации*/
+    border-radius: 2px;
+}
+
+.header-menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--Header-style-text-color);
+    padding: 32px 0;
+    display: block;
+
+    /* transition: opacity 1000ms, visibility 1000ms; */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--Header-menu-hover-color);
+    }
+}
+
+
+
+.header-menu-ul-mail-tel {
+    display: flex;
+    /* gap: 50px; */
+    gap: 30px;
+    /* text-decoration: underline; */
+}
+
+.header-menu-studiy {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    /* color: #2196f3; */
+    color: var(--Header-menu-studiy-color);
+    /* увеличение кликабельной зоны */
+    padding: 32px 0;
+    /* display: block; */
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--Header-menu-hover-color);
+    }
+
+    &:hover .net-mail-tel-icon,
+    &:focus .net-mail-tel-icon {
+    fill: #2196f3;
+    }
+
+}
+
